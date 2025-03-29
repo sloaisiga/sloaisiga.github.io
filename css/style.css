@@ -45,8 +45,8 @@ h2 {
 }
 
 .contact a {
-    text-decoration: none;
-    color: inherit; /* Optional: removes default link color */
+    text-decoration: none; /* Removes underline */
+    color: #28a745; /* Changes link color to green (#28a745) */
 }
 
 .contact a i {
@@ -56,5 +56,6 @@ h2 {
 }
 
 .contact a:hover {
-    color: #007bff; /* Optional: change link color on hover */
+    color: #218838; /* Optional: darkens the green on hover for effect */
 }
+
