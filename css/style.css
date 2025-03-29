@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.resume-container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+    color: #333;
+}
+
+.summary {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.section-title {
+    color: #28a745;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.experience-title {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.location {
+    color: #28a745;
+    font-style: italic;
+}
+
+.date {
+    font-style: italic;
+    color: #6c757d;
+}
