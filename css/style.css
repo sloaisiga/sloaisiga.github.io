@@ -58,3 +58,14 @@ h2 {
     color: #218838; /* Optional: darkens the green on hover for effect */
 }
 
+/* Change link color in the Education section */
+section a {
+    color: black; /* Default color */
+    text-decoration: none; /* Removes underline */
+}
+
+section a:hover {
+    color: #6b6767; /* Color on hover */
+    text-decoration: underline; /* Optional: Adds underline on hover */
+}
+
