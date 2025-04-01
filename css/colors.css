@@ -1,0 +1,9 @@
+/* colors.css */
+:root {
+    --primary-color: #28a745;
+    --secondary-color: #218838;
+    --text-color: #333;
+    --background-color: #f8f9fa;
+    --date-color: #6c757d;
+    --link-hover-color: #6b6767;
+}

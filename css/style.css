@@ -1,6 +1,9 @@
+@import url('colors.css'); /* Import color file */
+
+/* Global Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+    background-color: var(--background-color);
     padding: 20px;
 }
 
@@ -13,70 +16,65 @@ body {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-h1,
-h2 {
-    color: #333;
-}
-
-.summary {
-    color: #28a745;
-    font-weight: bold;
+/* Headings & Titles */
+h1, h2 {
+    color: var(--text-color);
 }
 
 .section-title {
-    color: #28a745;
+    color: var(--primary-color);
     font-weight: bold;
     margin-top: 20px;
 }
 
-.experience-title {
+/* Text Styles */
+.summary {
+    color: var(--primary-color);
     font-weight: bold;
-    font-size: 1.2em;
 }
 
 .location {
-    color: #28a745;
+    color: var(--primary-color);
     font-style: italic;
 }
 
 .date {
     font-style: italic;
-    color: #6c757d;
+    color: var(--date-color);
 }
 
+/* Links & Hover Effects */
 .contact a {
     text-decoration: none;
-    /* Removes underline */
-    color: #28a745;
-    /* Changes link color to green (#28a745) */
-}
-
-.contact a i {
-    font-size: 16px;
-    vertical-align: middle;
+    color: var(--primary-color);
 }
 
 .contact a:hover {
-    color: #218838;
-    /* Optional: darkens the green on hover for effect */
+    color: var(--secondary-color);
 }
 
-/* Change link color in the Education section */
+/* Education Section Links */
 section a {
     color: black;
-    /* Default color */
     text-decoration: none;
-    /* Removes underline */
 }
 
 section a:hover {
-    color: #6b6767;
-    /* Color on hover */
+    color: var(--link-hover-color);
     text-decoration: underline;
-    /* Optional: Adds underline on hover */
+}
+
+/* Lists & Bullet Points */
+ul li {
+    list-style: none;
+    position: relative;
+    padding-left: 1.2em;
 }
 
 ul li::before {
     content: "•";
-    color: #28a745;
+    color: var(--primary-color);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
 }
